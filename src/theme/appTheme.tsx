@@ -9,6 +9,7 @@ export const styles = StyleSheet.create({
         color: 'white',
         fontSize: 60,
         textAlign: 'right',
+        marginBottom:10
         
     },
     resultadoPequeno: {
@@ -17,6 +18,13 @@ export const styles = StyleSheet.create({
         textAlign: 'right',
         
     },
+    fila:{
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginBottom: 18,
+        paddingHorizontal: 10
+    }
+    ,
     calculadoraContainer:{
         paddingHorizontal: 20,
         flex:1,
@@ -27,13 +35,14 @@ export const styles = StyleSheet.create({
         width: 80,
         backgroundColor: '#9b9b9b',
         borderRadius: 100,
-        justifyContent: 'center'
+        justifyContent: 'center',
+        marginHorizontal: 10
     },
     botonTexto:{
         textAlign: 'center',
         padding: 10,
         fontSize: 30,
-        color: 'black',
+        color: 'white',
         fontWeight: '400'
     }
 });
